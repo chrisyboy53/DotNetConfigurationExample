@@ -36,7 +36,7 @@ namespace ConsoleApplication
 
             var config = builder.Build();
 
-
+            // In memory collection
             config["someKey"] = "someValue";
 
             return config;
